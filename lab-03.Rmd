@@ -1,6 +1,6 @@
 ---
 title: "Lab 03 - Nobel laureates"
-author: "Bobby and Tony"
+author: "Bobby, Tony and Zi Gu"
 date: "`r Sys.Date()`"
 output: html_document
 ---
@@ -28,7 +28,6 @@ There are 969 observations and 26 variables in the dataset.
 #### Code
 
 ```{r nobel-living}
-nobel %>%
   
 ```
 
