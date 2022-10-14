@@ -28,7 +28,9 @@ There are 969 observations and 26 variables in the dataset.
 #### Code
 
 ```{r nobel-living}
-  
+nobel_living <- nobel %>%
+  right_join(country, by = "id") %>%
+  right_join(died_date, by = "id")
 ```
 
 #### Narrative
